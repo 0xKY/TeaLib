@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "tea",
+  "version": "${version}",
+  "name": "Tea",
+  "description": "A small library named after a cool drink",
+  "authors": [
+    "KaloyanKYS"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/tea/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.kaloyankys.tea.client.TeaClient"
+    ],
+    "main": [
+      "me.kaloyankys.tea.Tea"
+    ]
+  },
+  "mixins": [
+    "tea.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.8",
+    "fabric": "*",
+    "minecraft": "1.18",
+    "java": ">=17"
+  }
+}
