@@ -4,6 +4,7 @@
   "package": "me.kaloyankys.tea.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "BrewingRecipeRegistryInvoker"
   ],
   "client": [
   ],
